@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- Kotak putih -->
+    <corners android:radius="30dp"/> <!-- Sudut membulat -->
+</shape>

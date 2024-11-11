@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login_bg"
+        android:scaleType="centerCrop" />
+
+    <!-- Login Form Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/white_box"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <!-- Title "LOGIN" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textSize="24sp"
+            android:textColor="#000080"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Username Field -->
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Username"
+            android:minHeight="48dp"
+            android:padding="16dp" />
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="16dp" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:gravity="center"
+            android:text="Login" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@null"
+            android:gravity="center"
+            android:text="Register" />
+
+    </LinearLayout>
+
+</FrameLayout>
