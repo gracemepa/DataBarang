@@ -12,7 +12,8 @@ Aplikasi Android untuk melakukan CRUD (Create, Read, Update, Delete) pada data b
 ## Struktur Layout
 
 Aplikasi ini menggunakan `TableLayout` untuk menyusun tombol-tombol utama fungsi CRUD.
-
+![Icon Screen](screenshoot/screenshoots)  
+*Icon Screen*
 ## Petunjuk Instalasi
 
 1. Clone repository ini ke Android Studio atau unduh ZIP.
